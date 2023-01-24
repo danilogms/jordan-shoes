@@ -1,0 +1,39 @@
+.promocao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #181818;
+  height: 60px;
+  color:#F9F9F9;
+  font-size: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F9F9F9;
+  color: #181818;
+  height: 60px;
+}
+
+.logo {
+  background-image: url('../Assets/background-header2.0.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  height: 380px;
+  padding-top: 6rem;
+  padding-left: 6rem;
+}
+
+.logo h1, p{
+  margin-top: 2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo h1{
+  font-size: 2rem;
+  /* letter-spacing: .15rem; */
+}
