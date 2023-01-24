@@ -1,6 +1,6 @@
 import React from 'react';
 import Shoes1 from '../Assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.svg';
-import Shoes2 from '../Assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.svg';
+import Shoes2 from '../Assets/air-jordan-1-mid-black-noble-red-w-1-1000.svg';
 import Shoes3 from '../Assets/air-jordan-1-mid-bright-citrus-1-1000 1.svg';
 import Shoes4 from '../Assets/air-jordan-1-mid-carbon-fiber-1-1000 1.svg';
 import Shoes5 from '../Assets/air-jordan-1-mid-grey-camo-1-1000 1.svg';

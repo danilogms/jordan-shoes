@@ -11,8 +11,15 @@ const Header = () => {
       <div className={styles.logo}>
         <h1 className="title">A melhor loja de Jordan</h1>
         <p className={styles.paragrafo}>
-          O tênis Jordan é fruto de uma velha e forte parceria<br/>entre a
-          Nike e o jogador Michael Jordan.
+          O tênis Jordan é fruto de uma velha e forte parceria
+          <br />
+          entre a Nike e o jogador Michael Jordan.
+        </p>
+      </div>
+      <div className={styles.destaque}>
+        <h1>Destaques</h1>
+        <p>
+          Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.
         </p>
       </div>
     </div>
