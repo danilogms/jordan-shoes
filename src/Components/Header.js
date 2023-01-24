@@ -3,7 +3,7 @@ import styles from '../Components/Header.module.css';
 
 const Header = () => {
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <div className={styles.promocao}>Ganhe R$ 10,00 de desconto no frete</div>
       <div className={styles.title}>
         <h2>JordanShoes</h2>
@@ -22,7 +22,7 @@ const Header = () => {
           Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.
         </p>
       </div>
-    </div>
+    </header>
   );
 };
 

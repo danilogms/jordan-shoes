@@ -33,3 +33,12 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+a{
+  text-decoration: none;
+  color: #F9F9F9;
+}
+
+a:hover {
+  color: crimson;
+}
