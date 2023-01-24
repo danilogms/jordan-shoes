@@ -1,15 +1,16 @@
 import React from 'react';
 import styles from '../Components/Header.module.css';
+import Titulo from './Titulo';
 
 const Header = () => {
   return (
     <header className={styles.container}>
       <div className={styles.promocao}>Ganhe R$ 10,00 de desconto no frete</div>
       <div className={styles.title}>
-        <h2>JordanShoes</h2>
+        <Titulo text="JordanShoes" />
       </div>
       <div className={styles.logo}>
-        <h1 className="title">A melhor loja de Jordan</h1>
+        <Titulo className="title" text="A melhor loja de Jordan" />
         <p className={styles.paragrafo}>
           O tênis Jordan é fruto de uma velha e forte parceria
           <br />
@@ -17,7 +18,7 @@ const Header = () => {
         </p>
       </div>
       <div className={styles.destaque}>
-        <h1>Destaques</h1>
+        <Titulo text="Destaques" />
         <p>
           Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.
         </p>
