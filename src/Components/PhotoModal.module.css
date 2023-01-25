@@ -1,0 +1,28 @@
+.modal {
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#EBE9EA;;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 50rem)  {
+  button {
+    left: 85%;
+    bottom: 45%;
+  }
+  .modal {
+    width: 40vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

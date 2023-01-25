@@ -8,8 +8,11 @@ import Shoes6 from '../Assets/air-jordan-1-mid-light-smoke-grey-gs-1-1000.svg';
 import Shoes7 from '../Assets/air-jordan-1-retro-high-court-purple-w-1-400.svg';
 import Shoes8 from '../Assets/air-jordan-1-mid-dutch-green-1-400.svg';
 import styles from '../Components/Shoes.module.css';
+import PhotoModal from './PhotoModal';
 
 const Shoes = () => {
+  const [modalPhoto, setModalPhoto] = React.useState(null);
+
   const shoesArray = [
     Shoes1,
     Shoes2,
@@ -21,8 +24,15 @@ const Shoes = () => {
     Shoes8,
   ];
 
+  function handleClick(event) {
+    setModalPhoto(event.target.src);
+  }
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={handleClick}>
+      {modalPhoto && (
+        <PhotoModal src={modalPhoto} setModalPhoto={setModalPhoto} />
+      )}
       {shoesArray.map((shoe) => (
         <div key={shoe} className={styles.containerShoes}>
           <img src={shoe} alt={shoe} />
