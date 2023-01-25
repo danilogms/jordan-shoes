@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p>
-        Desenvolvido por <a href="">Danilo Gomes</a>
+        Desenvolvido por{' '}
+        <a target="blank" href="https://www.linkedin.com/in/danilogms10/">
+          Danilo Gomes
+        </a>
       </p>
     </footer>
   );
